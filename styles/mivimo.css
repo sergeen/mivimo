@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Montagu_Slab';
+  src: url('../assets/Montagu_Slab/MontaguSlab-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+h1, h2 {
+  font-family: 'Montagu_Slab', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --h1-weight: 700;
+  --h2-weight: 500;
+}
+
+.custom-h1 {
+  font-weight: var(--h1-weight);
+}
+
+.custom-h2 {
+  font-weight: var(--h2-weight);
+}
