@@ -3,15 +3,18 @@
   src: url('../assets/Montagu_Slab/MontaguSlab-VariableFont_opsz,wght.ttf') format('truetype');
 }
 
-h1, h2 {
-  font-family: 'Montagu_Slab', sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
 :root {
   --h1-weight: 700;
   --h2-weight: 500;
+  --font-color: #212121;
+  --font-family: 'Montagu_Slab', sans-serif;
+}
+
+h1, h2 {
+  font-family: var(--font-family);
+  color: var(--font-color);
+  padding: 0;
+  margin: 0;
 }
 
 .custom-h1 {
