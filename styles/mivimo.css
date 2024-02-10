@@ -10,7 +10,7 @@
   --font-family: 'Montagu_Slab', sans-serif;
 }
 
-h1, h2 {
+h1, p {
   font-family: var(--font-family);
   color: var(--font-color);
   padding: 0;
@@ -21,6 +21,6 @@ h1, h2 {
   font-weight: var(--h1-weight);
 }
 
-.custom-h2 {
+.custom-p {
   font-weight: var(--h2-weight);
 }
