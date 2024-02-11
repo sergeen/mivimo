@@ -5,27 +5,15 @@
 
 :root {
   --h1-weight: 700;
-  --h2-weight: 500;
   --font-color: #212121;
-  --font-color-meta-info: #757575;
   --font-family: 'Montagu_Slab', sans-serif;
 }
 
-h1, p {
+h1, h2, h3, h4, li, summary, p {
   font-family: var(--font-family);
   color: var(--font-color);
-  padding: 0;
-  margin: 0;
 }
 
 .custom-h1 {
   font-weight: var(--h1-weight);
-}
-
-.custom-p {
-  font-weight: var(--h2-weight);
-  & > span:hover {
-    color: var(--font-color-meta-info);
-    cursor: help;
-  }
 }
