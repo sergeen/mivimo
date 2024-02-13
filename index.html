@@ -23,13 +23,6 @@
         <h2>Mínimo visual y móvil</h2>
       </hgroup>
     </header>
-    <nav>
-      <ul>
-        <li><a href="#introductionSection">Introducción</a></li>
-        <li><a href="#proyectDescriptionSection">Descripción del proyecto</a></li>
-        <li><a href="#projectFundationConceptualFramework">Fundamentación / Marco conceptual</a></li>
-      </ul>
-    </nav>
     <main>
       <section id="introductionSection">
         <p>Mivimo es una intalación artística audio-visual, inmersiva e interactiva que propone habitar un espacio <span title="Aquí siento que caigo en lo contra-cultural como lo cultural pero en negativo, lo cual no me gusta tanto, pues me gustaria habitar un espacio mas queer donde lo nuevo no esta dado como un contrario a lo establecido si no como algo construido por fuera, como lo plantea José Esteban Muñoz en Utopía Queer">contra-cultural</span> de perdida de control, baja velocidad e incomodidad.</p>
@@ -46,18 +39,21 @@
             <li>
               <h4>Modo de vinculación con el espectador</h4>
               <p>Los asistentes pueden vincularse en tres niveles: un nivel de baja-densidad en el cual se recorren el perímetro y pueden solo acceder a una limitada cantidad de información manifestada en sombras y reflejos, un nivel intermedio de alta-densidad inmersivo en el cual acepta ingresar en el espacio de incomodidad conectados (y limitados) por un vínculo con el exterior que les provee cierto grado de comodidad y un tercer nivel profundo de super-alta-densidad el cual contiene los dispositivos interactivos, sin vínculos con el exterior.</p>
-              <figure>
-                <img src="./assets/mivimo-esquema_01a.svg" alt="Imagen 01, muestra un esquema conceptual de como se configura la obra. Desde afuera hacia adentro, un circulo representa el perimetro exterior de la obra, seguido de un cuadrado de linea de puntos representando el primer area de la obra donde hay circulos conectados con una linea al exterior del cuadrado de linea de puntos pero todavia dentro del interior del circulo perimetral. Dentro del cuadrado de linea de luntos hay otro cuadrado más, de linea solida, representando el area mas central de la obra. En el centro mismo de este cuadrado se encuantran dos triangulos parcialmente superpuestos y ligeramente rotados.">
-                <figcaption>
-                  <p>Esquema conceptual de la obra Mivimo</p>
-                </figcaption>
-              </figure>
-              <figure>
-                <img src="./assets/mivimo-esquema_01b.svg" alt="Imagen 02, muestra los elementos del esquema anterior con un detalle de que es cada uno. Se describe con un circulo negro sólido a la persona, este mismo circulo con una linea saliendo de el como una 'persona vinculada'. Luego los triángulos rotados y ligeramente superpuestos representando los dispositivos lumīnicos. Finalmente un circulo, un cuadrado de línea de puntos y uno de línea sólida representando los diferentes niveles / espacios / sectores de la obra">
-                <figcaption>
-                  <p>Referencias del esquema conceptual</p>
-                </figcaption>
-              </figure>
+              <details>
+                <summary>Esquemas conceptuales</summary>
+                <figure>
+                  <img src="./assets/mivimo-esquema_01a.svg" alt="Imagen 01, muestra un esquema conceptual de como se configura la obra. Desde afuera hacia adentro, un circulo representa el perimetro exterior de la obra, seguido de un cuadrado de linea de puntos representando el primer area de la obra donde hay circulos conectados con una linea al exterior del cuadrado de linea de puntos pero todavia dentro del interior del circulo perimetral. Dentro del cuadrado de linea de luntos hay otro cuadrado más, de linea solida, representando el area mas central de la obra. En el centro mismo de este cuadrado se encuantran dos triangulos parcialmente superpuestos y ligeramente rotados." loading="lazy">
+                  <figcaption>
+                    <p>Esquema conceptual de la obra Mivimo</p>
+                  </figcaption>
+                </figure>
+                <figure>
+                  <img src="./assets/mivimo-esquema_01b.svg" alt="Imagen 02, muestra los elementos del esquema anterior con un detalle de que es cada uno. Se describe con un circulo negro sólido a la persona, este mismo circulo con una linea saliendo de el como una 'persona vinculada'. Luego los triángulos rotados y ligeramente superpuestos representando los dispositivos lumīnicos. Finalmente un circulo, un cuadrado de línea de puntos y uno de línea sólida representando los diferentes niveles / espacios / sectores de la obra" loading="lazy">
+                  <figcaption>
+                    <p>Referencias del esquema conceptual</p>
+                  </figcaption>
+                </figure>
+              </details>
             </li>
             <li>
               <h4>Tipo de interacción planteada</h4>
@@ -189,6 +185,15 @@
         </article>
         <article>
           <h3>Registro audiovisual</h3>
+          <details>
+            <summary>Test de iluminación y visibilidad</summary>
+            <figure>
+              <img src="./ffmpeg/img_01_from_01.jpg" alt="" loading="lazy">
+              <figcaption>
+                <pre>ffmpeg -i img_01.jpg -i palette_01.png -filter_complex "[0:v][1:v]paletteuse" -c:a copy img_01_from_01.gif</pre>
+              </figcaption>
+            </figure>
+          </details>
         </article>
         <article>
           <h3>Autores</h3>
@@ -198,7 +203,7 @@
     </main>
     <footer>
       <small title="Puedes crear este footer legal en https://chooser-beta.creativecommons.org/">
-        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://mivimo.vercel.app/">mivimo</a> by <address><a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/sscotta/">Sergio Scotta</a></address> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" title="Logo de Creative Commons: Dos letras 'C' dentro de un círculo"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" title="Icono de Cretive commons para la atribución 'by'. Representa una persona parada, con los brazos a los costados, dentro de un círculo."><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" title="Icono de Creative Commons indicando que el trabajo solo se puede usar con fines no comerciales. Es un cīrculo que contiene un signo '$' tachado con una línea diagonal"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" title="Icono de Creative Commons, un circulo que contiene una flecha curvada como un semi-círculo indicando representando que los trabajos derivados de este deben compartice bajo la misma liscencia."></a></p>
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://mivimo.vercel.app/">mivimo</a> by <address><a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/sscotta/">Sergio Scotta</a></address> is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img loading="lazy" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" title="Logo de Creative Commons: Dos letras 'C' dentro de un círculo"><img loading="lazy" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" title="Icono de Cretive commons para la atribución 'by'. Representa una persona parada, con los brazos a los costados, dentro de un círculo."><img loading="lazy" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" title="Icono de Creative Commons indicando que el trabajo solo se puede usar con fines no comerciales. Es un cīrculo que contiene un signo '$' tachado con una línea diagonal"><img loading="lazy" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" title="Icono de Creative Commons, un circulo que contiene una flecha curvada como un semi-círculo indicando representando que los trabajos derivados de este deben compartice bajo la misma liscencia."></a></p>
       </small>
     </footer>
   </body>
