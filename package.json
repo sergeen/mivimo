@@ -4,8 +4,7 @@
   "description": "A web page for the minimum visual and mobile art project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node nodeThings/findReplace.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
