@@ -23,13 +23,33 @@
         <h2>Mínimo visual y móvil</h2>
       </hgroup>
     </header>
+
     <nav>
-      <ul>
-        <li>
-          <a href="p5">Experimentando con humo digital</a>
-        </li>
-      </ul>
+      <details>
+        <summary>
+          Links adyacentes
+        </summary>
+        <ul>
+          <li>
+            <a href="https://www.marginalia.nu/log/19-website-discoverability-crisis/">Marginalia</a>
+          </li>
+          <li>
+            <a href="http://cyborganthropology.com">Cyborg Anthropology</a>
+          </li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          Experimentaciones
+        </summary>
+        <ul>
+          <li>
+            <a href="p5">Experimentando con humo digital</a>
+          </li>
+        </ul>
+      </details>
     </nav>
+    
     <main>
       <section id="introductionSection">
         <p>Mivimo es una intalación artística audio-visual, inmersiva e interactiva que propone habitar un espacio<dfn title="Aquí siento que caigo en lo contra-cultural como lo cultural pero en negativo, lo cual no me gusta tanto, pues me gustaria habitar un espacio mas queer donde lo nuevo no esta dado como un contrario a lo establecido si no como algo construido por fuera, como lo plantea José Esteban Muñoz en Utopía Queer"> contra-cultural </dfn>de perdida de control, baja velocidad e incomodidad.</p>
@@ -214,5 +234,14 @@
       </small>
     </footer>
     <script defer src="./scripts/showDfnTitleOnTooltip.js"></script>
+
+    <script>
+      console.log(window.location !== 'localhost' ? 'Estás en local' : 'Estás en producción')
+      let anchors = document.getElementsByTagName('a');
+      for (let i = 0; i < anchors.length; i++) {
+        console.log(anchors[i].getAttribute('href'))
+      }
+    </script>
+
   </body>
 </html>

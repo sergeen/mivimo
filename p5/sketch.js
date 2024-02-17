@@ -4,7 +4,7 @@ function setup() {
 
 function concentricCircles() {
   let size = width < height ? width : height;
-  let circles = 10;
+  let circles = 5;
   let step = size / circles;
   for (let i = 0; i < circles; i++) {
     this.circle(
@@ -25,7 +25,7 @@ function draw() {
   concentricCircles();
   concentricCircles();
   concentricCircles();
-  frameRate(5);
-  filter(BLUR, 20);
+  frameRate(1);
+  filter(BLUR, 10);
   describe('This is realtime accesible?.');
 }

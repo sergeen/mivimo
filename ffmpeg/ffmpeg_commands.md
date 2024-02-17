@@ -12,3 +12,6 @@ ffmpeg -i 01.mp4 -vf palettegen palette.png
 
 **Apply a palette to a given video**
 ffmpeg -i 01.mp4 -i palette.png -filter_complex "[0:v][1:v]paletteuse" -c:a copy output_video.gif
+
+**Invert the colors and keep the alpha channel**
+ffmpeg -i Hotel-Logo.png -vf "lutrgb=r=maxval-val:g=maxval-val:b=maxval-val" -c:a copy Hotel-Logo-Blanco.png
