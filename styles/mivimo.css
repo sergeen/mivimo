@@ -1,19 +1,14 @@
 @font-face {
-  font-family: 'Montagu_Slab';
-  src: url('../assets/Montagu_Slab/MontaguSlab-VariableFont_opsz,wght.ttf') format('truetype');
+  font-family: 'Sono regular';
+  src: url('../assets/sono/static/Sono-Regular.ttf') format('truetype');
 }
 
 :root {
-  --h1-weight: 700;
   --font-color: #212121;
-  --font-family: 'Montagu_Slab', sans-serif;
+  --font-family: 'Sono regular', sans-serif;
 }
 
-h1, h2, h3, h4, li, summary, p {
+html {
   font-family: var(--font-family);
   color: var(--font-color);
-}
-
-.custom-h1 {
-  font-weight: var(--h1-weight);
 }
