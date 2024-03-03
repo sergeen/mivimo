@@ -1,14 +1,19 @@
 @font-face {
-  font-family: 'Sono regular';
-  src: url('../assets/sono/static/Sono-Regular.ttf') format('truetype');
+  font-family: 'Open Sans Regular';
+  src: url('../assets/open_sans/OpenSans-Regular.ttf') format('truetype');
 }
 
 :root {
   --font-color: #212121;
-  --font-family: 'Sono regular', sans-serif;
+  --font-family: 'Open Sans Regular', sans-serif;
+  --font-size-h1: 1rem;
 }
 
 html {
   font-family: var(--font-family);
   color: var(--font-color);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
 }

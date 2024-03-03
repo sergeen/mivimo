@@ -4,8 +4,11 @@ Este repositorio es parte del proyecto para la instalación audio-visual Mivimo.
 
 **Consideraciones para esta web**
 
-1. WCAG AAA o por lo menos WCAG AA: [WCGA](https://webaim.org/resources/contrastchecker/)
-2. Usar html semántico: [Semantic HTML explained](https://www.freecodecamp.org/news/semantic-html5-elements/)
-3. Usar lo más posible metadatos, para que quien explore el proyecto tenga acceso a información extra, pero sobre todo para que me sirva a mi como una bitácora y notas de aprendizaje.
-
-Que hace	Esto
+1. Al menos WCAG AA: [WCGA](https://webaim.org/resources/contrastchecker/)
+2. Utilizar lo más posible HTML Semántico [Semantic HTML explained](https://www.freecodecamp.org/news/semantic-html5-elements/)
+3. Utilizar lo mas posible estandars de accesibilidad AIRA.
+4. Colocar opciones para cambiar el lenguaje, los estilos, y la cantidad de información
+5. Generar un lenguage visual / optico para el sitio y el proyecto.
+6. Aplicar los conceptos de la obra en el diseño
+7. Sentar las bases para una plataforma para proyectos.
+8. El estado se almacena en la url, la posicion, tooltips abiertos y configuraciones
