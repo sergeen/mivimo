@@ -14,3 +14,5 @@ Este repositorio es parte del proyecto para la instalación audio-visual Mivimo.
 8. El estado se almacena en la url, la posicion, tooltips abiertos y configuraciones
 9. Sistema de comentarios que permita marcar un texto y agregar un comentario, capaz mejor empezar por algo como comentar un item (es mas fácil), de paso practico cosas como bases de datos y eso. Los comentarios tienen que ser visibles a todas las personas que vean el sitio.
 10. Corrector ortográfico o algo que marque cuando hay un error.
+11. https://github.com/antijingoist/opendyslexic/tree/v0.91.12
+12. Un selector de font weight dinamico como en google maps
