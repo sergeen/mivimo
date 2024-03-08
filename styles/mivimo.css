@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Open Sans Regular';
-  src: url('../assets/open_sans/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'Open Dyslexic Regular';
+  src: url('../assets/open_dyslexic/OpenDyslexic-Regular.otf') format('truetype');
 }
 
 :root {
   --font-color: #212121;
-  --font-family: 'Open Sans Regular', sans-serif;
+  --font-family: 'Open Dyslexic Regular', sans-serif;
   --font-size-h1: 1rem;
 }
 
