@@ -1,17 +1,24 @@
-@font-face {
+/* @font-face {
   font-family: 'Open Dyslexic Regular';
   src: url('../assets/open_dyslexic/OpenDyslexic-Regular.otf') format('truetype');
+} */
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('../assets/lexend/Lexend-VariableFont_wght.ttf') format('truetype');
 }
 
 :root {
   --font-color: #212121;
-  --font-family: 'Open Dyslexic Regular', sans-serif;
+  --background-color: #ececec;
+  --font-family: 'Lexend', sans-serif;
   --font-size-h1: 1rem;
 }
 
 html {
   font-family: var(--font-family);
   color: var(--font-color);
+  background-color: var(--background-color)
 }
 
 h1 {
